@@ -269,10 +269,11 @@
   margin-top: 50px;
 }
 
-.religious-h1 {
-  font-size: 28px;
-  font-weight: bold;
-  color: #333;
+.religious-p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  margin-top: 20px;
 }
 
 .religious-ul {
@@ -281,7 +282,7 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  padding:180px;
+  padding:280px;
 }
 
 .religious-photo {
@@ -306,4 +307,35 @@
   margin-top: 10px;
   font-size: 20px;
   color: #555;
+}
+
+.historic-div{
+  background-image: url(../images/photo-banner1.jpeg);
+  height:400px;
+  width:100%;
+  padding:150px;
+  background-size: cover;
+}
+.historic-h1{
+  color:rgb(2, 1, 1);
+  text-align:justify;
+  padding:120px
+}
+
+
+.historic-ul {
+  margin: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  list-style-type: none;
+  padding: 0;
+}
+
+.hillstation-div{
+  background-image: url(../images/photobaner2.jpg);
+  height:400px;
+  width:100%;
+  padding:150px;
+  background-size: cover;
 }
